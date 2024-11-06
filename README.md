@@ -48,8 +48,8 @@ index.html
             <h1>Responsive Web Design with<br>HTML5 and CSS</h1>
             <p class="subtitle">Develop future-proof responsive websites<br>using the latest HTML5 and CSS techniques</p>
             <p class="edition">Third Edition</p>
-            <p class="author">Ben Frain</p>
-            <p class="publisher">Packt</p>
+            <p class="author">NARMADHA SREE S</p>
+            <p class="publisher">SEC</p>
         </div>
     </div>
 </body>
@@ -57,14 +57,14 @@ index.html
 ```
 styles.css
 ```
-/* Reset default styling */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Center the content */
+
 body {
   display: flex;
   justify-content: center;
@@ -74,11 +74,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Container styling */
 .cover-container {
   width: 350px;
   padding: 20px;
-  background-image: url('ai-image-generators.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+  background-image: url('ai-image-generators.jpg');
   background-size: cover;
   background-position: center;
   color: #0f0f0f;
@@ -88,7 +87,6 @@ body {
   overflow: hidden;
 }
 
-/* Styling for each element */
 .insight {
   font-size: 12px;
   color: #ff6b35;
@@ -117,24 +115,23 @@ h1 {
   margin-bottom: 40px;
 }
 
-.author {
+author {
   font-size: 16px;
   font-weight: bold;
-  color:#faf7f7;
+  color:#0d0c0c;
   margin-bottom: 5px;
 }
 
 .publisher {
     font-size: 24px;
     font-weight: bold;
-    color: #fffafa;
+    color: #fbf4f4;
     position: absolute;
     bottom: 20px;
-    right: 20px; /* Add this line to move it to the bottom-right corner */
+    right: 20px; 
 
 }
 
-/* SVG wave overlay */
 .cover-container::before {
   content: "";
   position: absolute;
@@ -145,12 +142,10 @@ h1 {
   background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path d="M0,0 C300,100 900,0 1200,100 V120 H0 Z" fill="%23ffffff" opacity="0.2"/></svg>') no-repeat center center;
   background-size: cover;
   z-index: 1;
-  opacity: 0.5; /* Adjust opacity to make the wave visible over the image */
-}
+  opacity: 0.5; 
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (29)-1.png>)
-
+![alt text](<Screenshot (30)-1.png>)
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
